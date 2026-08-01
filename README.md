@@ -36,19 +36,3 @@ Before diving into complex distributed systems, I reviewed Python fundamentals b
 
 ---
 
-## 📂 Repository Structure
-
-```text
-de-zoomcamp-2026/
-├── 00-python-refresher/
-│   ├── 01-todo-app/
-│   ├── 02-movie-recommender/
-│   └── 03-fill-in-the-blank/
-├── 01-containerization-and-iac/
-├── 02-workflow-orchestration/
-├── 03-data-warehouse/
-├── 04-analytics-engineering/
-├── 05-batch-processing/
-├── 06-streaming/
-├── project/                  # Final Capstone Project
-└── README.md                 # Main Documentation
