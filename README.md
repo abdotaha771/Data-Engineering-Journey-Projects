@@ -9,13 +9,13 @@ This repository documents my step-by-step progress, hands-on assignments, Python
 ## 📌 Progress & Modules Overview
 
 - [x] **[Module 0: Python Refresher Projects](./00-python-refresher)**
-- [ ] **[Module 1: Containerization & Infrastructure as Code](./01-containerization-and-iac)** *(Docker, Postgres, Terraform)*
-- [ ] **[Module 2: Workflow Orchestration](./02-workflow-orchestration)** *(Kestra / Airflow)*
-- [ ] **[Module 3: Data Warehouse](./03-data-warehouse)** *(Google BigQuery)*
-- [ ] **[Module 4: Analytics Engineering](./04-analytics-engineering)** *(dbt)*
-- [ ] **[Module 5: Batch Processing](./05-batch-processing)** *(Apache Spark)*
-- [ ] **[Module 6: Streaming](./06-streaming)** *(Apache Kafka)*
-- [ ] **[Capstone Project](./project)** *(End-to-End Pipeline)*
+- [ ] **[Module 1: Containerization & Infrastructure as Code](./01-containerization-and-iac)** 
+- [ ] **[Module 2: Workflow Orchestration](./02-workflow-orchestration)** 
+- [ ] **[Module 3: Data Warehouse](./03-data-warehouse)** 
+- [ ] **[Module 4: Analytics Engineering](./04-analytics-engineering)** 
+- [ ] **[Module 5: Batch Processing](./05-batch-processing)** 
+- [ ] **[Module 6: Streaming](./06-streaming)** 
+- [ ] **[Capstone Project](./project)** 
 
 ---
 
