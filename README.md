@@ -1,6 +1,6 @@
 # 🚀 Data Engineering Zoomcamp 2026 - My Journey & Projects
 
-Welcome to my central repository for the **[Data Engineering Zoomcamp](https://datatalks.club/)** hosted by DataTalks.Club. 
+Welcome to my central repository for the **[Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)** hosted by DataTalks.Club. 
 
 This repository documents my step-by-step progress, hands-on assignments, Python foundational projects, and end-to-end Capstone architecture.
 
