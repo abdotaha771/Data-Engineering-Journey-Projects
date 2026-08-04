@@ -31,5 +31,9 @@ Before diving into complex distributed systems, I reviewed Python fundamentals b
 2. **📚 [Books Catalog Web Scraper](./Module%200_Python%20Refresher%20Projects/Web_Scraping_books_to_scrap)**
    * **Focus:** Web Scraping, Resilient Network Requests, Data Cleaning, Batch Export (`CSV`).
    * **Features:** Robust scraper handling dynamic pagination, automated retries, HTML parsing with BeautifulSoup, schema validation, and tabular data export using Pandas.
+
+3. **🌤️ [Automated Weather ETL Pipeline](./Module%200_Python%20Refresher%20Projects/etl_weather)**
+   * **Focus:** REST APIs Integration, Data Transformation, SQL Server Database Loading, Automation.
+   * **Features:** End-to-end pipeline fetching weather data for Egyptian cities via Open-Meteo API, normalizing JSON payloads with Pandas, appending records to MS SQL Server via SQLAlchemy/PyODBC, and automating historical ingestion with Windows Task Scheduler.
 ---
 
