@@ -1,2 +1,6 @@
 tasks.json
-
+venv/
+.venv/
+__pycache__/
+.vscode/
+.env
