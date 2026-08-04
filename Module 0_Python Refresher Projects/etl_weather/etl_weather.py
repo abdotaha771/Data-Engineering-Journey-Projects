@@ -32,48 +32,69 @@ connection_string = (
 
 DATABASE_URI = f"mssql+pyodbc:///?odbc_connect={urllib.parse.quote_plus(connection_string)}"
 
-country_name = "Egypt"  # اسم الدولة باللغة الإنجليزية
-def get_cities_for_country(country_name):
+def get_cities_for_country(COUNTRY):
     """
-    جلب الإحداثيات الجغرافية لمدن ومحافظات مصر الرئيسية مع الفلترة الصريحة لضمان اتباعها لمصر حصراً.
+    جلب كافة مدن ومحافظات مصر الـ 27 كلياً بدون أي نقص وبأسمائها النظيفة.
     """
-    cities_to_search = [
-        "Cairo", "Alexandria", "Giza", "Shubra El Kheima", "Port Said", "Suez",
-        "Mansoura", "El Mahalla El Kubra", "Tanta", "Asyut", "Ismailia", "Faiyum",
-        "Zagazig", "Aswan", "Damietta", "Damanhur", "Minya", "Beni Suef", "Qena",
-        "Sohag", "Hurghada", "6th of October", "Sharm El-Sheikh", "Luxor",
-        "Marsa Matruh", "Arish", "Kafr El Sheikh"
-    ]
+    # خريطة تربط الاسم المطلوب بالاسم المتوافق مع Open-Meteo API
+    cities_map = {
+        "Cairo": "Cairo",
+        "Alexandria": "Alexandria",
+        "Giza": "Giza",
+        "Shubra El Kheima": "Shubra al Khaymah",
+        "Port Said": "Port Said",
+        "Suez": "Suez",
+        "Mansoura": "Al Mansurah",
+        "El Mahalla El Kubra": "El-Mahalla",
+        "Tanta": "Tanta",
+        "Asyut": "Asyut",
+        "Ismailia": "Ismailia",
+        "Faiyum": "Al Fayyum",
+        "Zagazig": "Zagazig",
+        "Aswan": "Aswan",
+        "Damietta": "Damietta",
+        "Damanhur": "Damanhur",
+        "Minya": "Minya",
+        "Beni Suef": "Bani Suwayf",
+        "Qena": "Qina",
+        "Sohag": "Sohag",
+        "Hurghada": "Hurghada",
+        "6th of October": "6th of October City",
+        "Sharm El-Sheikh": "Sharm el Sheikh",
+        "Luxor": "Luxor",
+        "Marsa Matruh": "Marsa Matruh",
+        "Arish": "EL Arish",
+        "Kafr El Sheikh": "Kafr ash Shaykh"
+    }
 
     cities_geo_data = []
     session = requests.Session()
     retries = Retry(total=3, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
     session.mount("https://", HTTPAdapter(max_retries=retries))
 
-    print(f"Fetching location data for cities in {country_name}...")
-    for city in cities_to_search:
+    print(f"Fetching location data for all 27 cities in {COUNTRY}...")
+    
+    for display_name, search_name in cities_map.items():
         url = (
             "https://geocoding-api.open-meteo.com/v1/search?"
-            f"name={urllib.parse.quote_plus(city)}&count=5&language=en&format=json"
+            f"name={urllib.parse.quote_plus(search_name)}&count=10&language=en&format=json"
         )
         try:
             response = session.get(url, timeout=10)
             if response.status_code == 200:
                 results = response.json().get("results", [])
                 for item in results:
-                    if item.get("country") == country_name or item.get("country_code") == "EG":
+                    if item.get("country") == "Egypt" :
                         cities_geo_data.append({
-                            "city": item.get("name"),
+                            "city": display_name,  
                             "lat": item.get("latitude"),
                             "lon": item.get("longitude")
                         })
                         break
         except Exception as e:
-            print(f"Error fetching coordinates for {city}: {e}")
+            print(f"Error fetching coordinates for {display_name}: {e}")
 
     return cities_geo_data
-
-
 # --- STEP 1: EXTRACT ---
 def extract_weather_data(cities):
     """Fetches real-time weather from Open-Meteo API."""
