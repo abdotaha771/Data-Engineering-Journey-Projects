@@ -9,7 +9,7 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 - ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** *(Source: Eng. Baraa 30-Hour Course)*
 - ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** *(Data Structures, Web Scraping, APIs & ETL)*
-- 🔄 **[Module 3: Containerization & Infrastructure as Code](./03-containerization-and-iac)** *(Docker & Terraform)*
+- 🔄 **[Module 3: Containerization & Infrastructure as Code](./03-containerization-and-Infrastructure-as-Code)** *(Docker & Terraform)*
 
 ---
 
