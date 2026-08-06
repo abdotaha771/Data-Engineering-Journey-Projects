@@ -52,4 +52,8 @@ Before diving into complex distributed systems, I reviewed Python fundamentals b
 Setting up local and cloud engineering environments using Docker, PostgreSQL, and provisioning cloud assets using Terraform.
 
 ### 📚 Learning Resources & Fundamentals:
-* Started Containerization fundamentals with [Docker Tutorial for Beginners (Full Course)](https://www.youtube.com/watch?v=3c-iBn73dDE) by TechWorld with Nana.
+* **Video Foundations:** Started Containerization fundamentals with [Docker Tutorial for Beginners (Full Course)](https://www.youtube.com/watch?v=3c-iBn73dDE) by TechWorld with Nana.
+* **Hands-on Labs & Curriculum:** Progressing through the hands-on modules in the Data Engineering Zoomcamp repository:
+  * 📄 **[Introduction to Docker](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/01-introduction.md)
+
+> 💡 **Learning Strategy:** Practicing hands-on container setup alongside AI-assisted learning (ChatGPT/Gemini) to deep-dive into complex CLI flags, container architecture, and debugging edge cases in real time.
