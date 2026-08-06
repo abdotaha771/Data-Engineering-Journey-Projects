@@ -56,5 +56,6 @@ Setting up local and cloud engineering environments using Docker, PostgreSQL, an
 * **Hands-on Labs & Curriculum:** Progressing through the hands-on modules in the Data Engineering Zoomcamp repository:
   * 📄 **[Introduction to Docker](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/01-introduction.md)
   * 📄 **[Virtual Environments and Data Pipelines](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/02-virtual-environment.md)
+  * 📄 **[Dockerizing the Pipeline](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/03-dockerizing-pipeline.md)
 
 > 💡 **Learning Strategy:** Practicing hands-on container setup alongside AI-assisted learning (ChatGPT/Gemini) to deep-dive into complex CLI flags, container architecture, and debugging edge cases in real time.
