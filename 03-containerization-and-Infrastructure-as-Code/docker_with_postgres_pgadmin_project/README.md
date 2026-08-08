@@ -109,14 +109,3 @@ Then run it with environment variables linking to the Postgres service.
 - This setup is intended for local development. Do not expose pgAdmin or Postgres to public networks without appropriate firewalling and secure credentials.
 - Rotate secrets and avoid committing real passwords to the repository.
 
-## Next steps and enhancements
-
-- Add a small orchestration script to run ingestion on a schedule (cron or Airflow integration).
-- Add tests for the ingestion script and CI steps to build the Docker image.
-- Add documentation for the SQL schema and sample queries used for analysis.
-
-## License & Credits
-
-This project follows the repository license (see root `LICENSE`). Credit: Data Engineering Zoomcamp exercises and personal implementations.
-
----
