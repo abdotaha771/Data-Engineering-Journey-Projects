@@ -56,5 +56,20 @@ Setting up local and cloud engineering environments using Docker, PostgreSQL, an
 * **Hands-on Labs & Curriculum:** Progressing through the hands-on modules in the Data Engineering Zoomcamp repository:
   * 📄 **[Introduction to Docker](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/01-introduction.md)
   * 📄 **[Virtual Environments and Data Pipelines](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/02-virtual-environment.md)
+  * 📄 **[Dockerizing the Pipeline](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/03-dockerizing-pipeline.md)
+  * 📄 **[Running PostgreSQL with Docker](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/04-postgres-docker.md)
+  * 📄 **[NY Taxi Dataset and Data Ingestion](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/05-data-ingestion.md)
+  * 📄 **[Creating the Data Ingestion Script](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/06-ingestion-script.md)
+  * 📄 **[pgAdmin - Database Management Tool](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/07-pgadmin.md)
+  * 📄 **[Dockerizing the Ingestion Script](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/08-dockerizing-ingestion.md)
+  * 📄 **[Docker Compose](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/01-docker-terraform/docker-sql/09-docker-compose.md)
+  
 
-> 💡 **Learning Strategy:** Practicing hands-on container setup alongside AI-assisted learning (ChatGPT/Gemini) to deep-dive into complex CLI flags, container architecture, and debugging edge cases in real time.
+> 💡 **Learning Strategy:** Practicing hands-on container setup alongside AI-assisted learning (ChatGPT/Gemini).
+
+
+### 🚀 Highlighted Project: Multi-Container NYC Taxi Ingestion Pipeline
+
+> 💡 **Next Step:** After going through the Zoomcamp reading materials above, head directly to my production-ready project folder below to explore, run, and understand how all these components work together seamlessly in a single command.
+
+👉 **[NYC Taxi Data Ingestion Pipeline Project](./03-containerization-and-Infrastructure-as-Code/docker_with_postgres_pgadmin_project)**
