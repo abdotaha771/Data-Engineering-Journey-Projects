@@ -31,6 +31,9 @@ Before moving into distributed systems and orchestration, I established a robust
 
 Before diving into complex distributed systems, I reviewed Python fundamentals by building core CLI projects, web scrapers, and automated database pipelines focused on data structures, control flow, functions, file persistence, and validation.
 
+### 💡 Recommended Revision Resource:
+* 📄 **[Python for Data Engineering Course](https://github.com/behnamyazdan/PythonForDataEngineeringCourse):** A recommended external repository to quickly look up or revise Python fundamentals and concepts relevant to Data Engineering.
+
 ### Included Projects:
 
 1. **📝 [To-Do List Application](./02-python-refresher/To-Do%20List%20Application)**
