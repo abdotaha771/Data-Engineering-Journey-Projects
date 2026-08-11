@@ -9,8 +9,8 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 - ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** *(Source: Eng. Baraa 30-Hour Course)*
 - ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** *(Data Structures, Web Scraping, APIs & ETL)*
-- 🔄 **[Module 3: Containerization & Infrastructure as Code](./03-containerization-and-Infrastructure-as-Code)** *(Docker & Terraform)*
-
+- ✅ **[Module 3: Containerization with Docker](./03-Containerization with Docker)** *(Docker & Docker Compose)*
+- 🔄 **[Module 4: GCP & BigQuery](./04-GCP & BigQuery)** *(GCS, BigQuery & Cloud Data Warehousing)*
 ---
 
 ## 🗄️ Module 1: Relational Databases & Advanced SQL
@@ -50,9 +50,9 @@ Before diving into complex distributed systems, I reviewed Python fundamentals b
 
 ---
 
-## 🐳 Module 3: Containerization & Infrastructure as Code
+## 🐳 Module 3: Containerization with Docker
 
-Setting up local and cloud engineering environments using Docker, PostgreSQL, and provisioning cloud assets using Terraform.
+Setting up reproducible local data engineering environments using Docker, PostgreSQL, and Docker Compose
 
 ### 📚 Learning Resources & Fundamentals:
 * **Video Foundations:** Started Containerization fundamentals with [Docker Tutorial for Beginners (Full Course)](https://www.youtube.com/watch?v=3c-iBn73dDE) by TechWorld with Nana.
@@ -76,3 +76,7 @@ Setting up local and cloud engineering environments using Docker, PostgreSQL, an
 > 💡 **Next Step:** After going through the Zoomcamp reading materials above, head directly to my production-ready project folder below to explore, run, and understand how all these components work together seamlessly in a single command.
 
 👉 **[NYC Taxi Data Ingestion Pipeline Project](./03-containerization-and-Infrastructure-as-Code/docker_with_postgres_pgadmin_project)**
+
+---
+
+## ☁️ Module 4: GCP & BigQuery
