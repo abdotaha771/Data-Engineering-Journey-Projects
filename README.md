@@ -9,10 +9,10 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 - ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** *(Source: Eng. Baraa 30-Hour Course)*
 - ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** *(Data Structures, Web Scraping, APIs & ETL)*
-- ✅ **[Module 3: Containerization with Docker](./03-Containerization with Docker)** *(Docker & Docker Compose)*
-- 🔄 **[Module 4: GCP & BigQuery](./04-GCP & BigQuery)** *(GCS, BigQuery & Cloud Data Warehousing)*
+- ✅ **[Module 3: Containerization with Docker](<./03-Containerization with Docker>)** *(Docker & Docker Compose)*
+- 🔄 **[Module 4: GCP & BigQuery](<./04-GCP & BigQuery>)** *(GCS, BigQuery & Cloud Data Warehousing)*
 ---
-
+./03-Containerization with Docker
 ## 🗄️ Module 1: Relational Databases & Advanced SQL
 
 **Learning Source:** [Eng. Baraa's 30-Hour Intensive Advanced SQL & Database Course](https://youtu.be/SSKVgrwhzus?si=_ZxvYuiNXkwpjuYh)
