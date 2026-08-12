@@ -10,12 +10,12 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 - ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** *(Source: Eng. Baraa 30-Hour Course)*
 - ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** *(Data Structures, Web Scraping, APIs & ETL)*
 - ✅ **[Module 3: Containerization with Docker](./03-containerization-with-docker)** *(Docker & Docker Compose)*
-- 🔄 **[Module 4: GCP & BigQuery](./04-gcp-and-bigquery)** *(GCS, BigQuery & Cloud Data Warehousing)*
+- 🔄 **[Module 4: Cloud Data Warehousing & IaC](./04-gcp-and-bigquery)** *(GCP, GCS, BigQuery & Terraform Fundamentals)*
 - ⏳ **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** *(dbt Core, Data Modeling, Testing & Documentation)*
 - ⏳ **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** *(Apache Airflow & Pipeline Automation)*
-- ⏳ **[Module 7: Batch Processing with Spark](./07-batch-processing-spark)** *(Apache Spark, PySpark, Distributed Processing & Data Lakes)*
-- ⏳ **[Module 8: Stream Processing with Kafka](./08-stream-processing-kafka)** *(Apache Kafka, Event Streaming & Real-Time Ingestion)*
-- ⏳ **[Module 9: Production & DataOps](./09-production-and-dataops)** *(Terraform/IaC, CI/CD, Data Quality, Monitoring & Secrets Management)*
+- ⏳ **[Module 7: Unified Data Processing & Lakehouse](./07-batch-processing-spark)** *(Apache Spark, PySpark, Databricks & Delta Lake)*
+- ⏳ **[Module 8: Stream Processing & Real-Time Ingestion](./08-stream-processing-kafka)** *(Apache Kafka & Event Streaming)*
+- ⏳ **[Module 9: Production-Grade DataOps & Observability](./09-production-and-dataops)** *(CI/CD, Data Quality, Monitoring & Secrets Management)*
 - ⏳ **[Module 10: End-to-End Capstone Project](./10-end-to-end-capstone-project)** *(Production-Grade Architecture & Analytics Portal)*
 ---
 
@@ -85,4 +85,12 @@ Setting up reproducible local data engineering environments using Docker, Postgr
 
 ---
 
-## ☁️ Module 4: GCP & BigQuery
+## ☁️ Module 4: Cloud Data Warehousing & IaC
+
+Building cloud-based data warehouses, managing storage buckets, and understanding Infrastructure as Code using GCP, BigQuery, and Terraform.
+
+### 📚 Learning Resources & Fundamentals:
+* **Interactive DataCamp Courses:**
+  * 📄 **[Introduction to Data Engineering on Google Cloud](https://app.datacamp.com/learn/courses/introduction-to-data-engineering-on-google-cloud)**
+  * 📄 **[Build Data Lakes and Data Warehouses on Google Cloud](https://app.datacamp.com/learn/courses/build-data-lakes-and-data-warehouses-on-google-cloud)**
+* **Hands-on Labs & Infrastructure as Code:**
