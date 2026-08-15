@@ -4,19 +4,35 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 
 ---
+## 📌 Roadmap & Milestones
 
-## 📌 Roadmap & Progress
+### 🚩 Milestone 1: Modern Data Warehouse & Batch Pipelines (Job-Ready Target)
+> **Goal:** Build automated, production-grade batch ELT pipelines on the cloud and start applying for Junior / Mid Data Engineer & Analytics Engineer roles.
 
 - ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** *(Source: Eng. Baraa 30-Hour Course)*
 - ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** *(Data Structures, Web Scraping, APIs & ETL)*
 - ✅ **[Module 3: Containerization with Docker](./03-containerization-with-docker)** *(Docker & Docker Compose)*
-- 🔄 **[Module 4: Cloud Data Warehousing & IaC](./04-gcp-and-bigquery)** *(GCP, GCS, BigQuery & Terraform Fundamentals)*
+- 🔄 **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** *(GCP, GCS, BigQuery, IAM & BigLake)*
 - ⏳ **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** *(dbt Core, Data Modeling, Testing & Documentation)*
 - ⏳ **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** *(Apache Airflow & Pipeline Automation)*
+- 🎯 **Capstone Project 1:** *End-to-End Batch Pipeline (API/DB ➔ GCS ➔ BigQuery ➔ dbt ➔ Airflow / Docker)*
+
+---
+
+### 🚩 Milestone 2: Distributed Computing & Lakehouse Architecture
+> **Goal:** Scale data transformations to large-scale datasets and master open-format Lakehouse architectures.
+
 - ⏳ **[Module 7: Unified Data Processing & Lakehouse](./07-batch-processing-spark)** *(Apache Spark, PySpark, Databricks & Delta Lake)*
+- 🎯 **Capstone Project 2:** *Large-Scale Lakehouse Pipeline (PySpark / Databricks + Delta Lake Medallion Architecture)*
+
+---
+
+### 🚩 Milestone 3: Real-Time Streaming, IaC & Production DataOps
+> **Goal:** Build low-latency event-driven architectures with full infrastructure automation and CI/CD pipelines.
+
 - ⏳ **[Module 8: Stream Processing & Real-Time Ingestion](./08-stream-processing-kafka)** *(Apache Kafka & Event Streaming)*
-- ⏳ **[Module 9: Production-Grade DataOps & Observability](./09-production-and-dataops)** *(CI/CD, Data Quality, Monitoring & Secrets Management)*
-- ⏳ **[Module 10: End-to-End Capstone Project](./10-end-to-end-capstone-project)** *(Production-Grade Architecture & Analytics Portal)*
+- ⏳ **[Module 9: Production-Grade DataOps, IaC & Observability](./09-production-and-dataops)** *(Terraform, CI/CD, Data Quality, Monitoring & Secrets)*
+- 🏆 **[Module 10: End-to-End Master Capstone Project](./10-end-to-end-capstone-project)** *(Hybrid Batch + Streaming Production Architecture with Full DataOps)*
 ---
 
 ## 🗄️ Module 1: Relational Databases & Advanced SQL
@@ -93,4 +109,4 @@ Building cloud-based data warehouses, managing storage buckets, and understandin
 * **Interactive DataCamp Courses:**
   * 📄 **[Introduction to Data Engineering on Google Cloud](https://app.datacamp.com/learn/courses/introduction-to-data-engineering-on-google-cloud)**
   * 📄 **[Build Data Lakes and Data Warehouses on Google Cloud](https://app.datacamp.com/learn/courses/build-data-lakes-and-data-warehouses-on-google-cloud)**
-* **Hands-on Labs & Infrastructure as Code:**
+
