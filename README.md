@@ -101,7 +101,7 @@ Setting up reproducible local data engineering environments using Docker, Postgr
 
 ---
 
-## ☁️ Module 4: Cloud Data Warehousing & IaC
+## ☁️ Module 4: Cloud Data Warehousing
 
 Building cloud-based data warehouses, managing storage buckets, and understanding Infrastructure as Code using GCP, BigQuery, and Terraform.
 
