@@ -12,8 +12,8 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 - ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** *(Source: Eng. Baraa 30-Hour Course)*
 - ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** *(Data Structures, Web Scraping, APIs & ETL)*
 - ✅ **[Module 3: Containerization with Docker](./03-containerization-with-docker)** *(Docker & Docker Compose)*
-- 🔄 **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** *(GCP, GCS, BigQuery, IAM & BigLake)*
-- ⏳ **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** *(dbt Core, Data Modeling, Testing & Documentation)*
+- ✅ **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** *(GCP, GCS, BigQuery, IAM & BigLake)*
+- 🔄 **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** *(dbt Core, Data Modeling, Testing & Documentation)*
 - ⏳ **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** *(Apache Airflow & Pipeline Automation)*
 - 🎯 **Capstone Project 1:** *End-to-End Batch Pipeline (API/DB ➔ GCS ➔ BigQuery ➔ dbt ➔ Airflow / Docker)*
 
@@ -110,3 +110,12 @@ Building cloud-based data warehouses, managing storage buckets, and understandin
   * 📄 **[Introduction to Data Engineering on Google Cloud](https://app.datacamp.com/learn/courses/introduction-to-data-engineering-on-google-cloud)**
   * 📄 **[Build Data Lakes and Data Warehouses on Google Cloud](https://app.datacamp.com/learn/courses/build-data-lakes-and-data-warehouses-on-google-cloud)**
 
+---
+
+## 🛠️ Module 5: Analytics Engineering with dbt
+
+Transforming raw warehouse data into analytics-ready models, implementing data testing and documentation, and establishing reliable data transformation workflows using dbt (data build tool).
+
+### 📚 Learning Resources & Fundamentals:
+* **Interactive DataCamp Skill Track:**
+  * 📄 **[dbt Fundamentals](https://app.datacamp.com/learn/skill-tracks/dbt-fundamentals)**
