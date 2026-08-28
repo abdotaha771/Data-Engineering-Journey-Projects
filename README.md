@@ -14,7 +14,7 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 - ✅ **[Module 3: Containerization with Docker](./03-containerization-with-docker)** *(Docker & Docker Compose)*
 - ✅ **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** *(GCP, GCS, BigQuery, IAM & BigLake)*
 - ✅ **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** *(dbt Core, Data Modeling, Testing & Documentation)*
-  🔄 **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** *(Apache Airflow & Pipeline Automation)*
+- 🔄 **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** *(Apache Airflow & Pipeline Automation)*
 - 🎯 **Capstone Project 1:** *End-to-End Batch Pipeline (API/DB ➔ GCS ➔ BigQuery ➔ dbt ➔ Airflow / Docker)*
 
 ---
