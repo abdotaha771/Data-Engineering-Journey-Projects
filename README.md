@@ -10,13 +10,13 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 > **Goal:** Build automated, production-grade batch ELT pipelines on the cloud and start applying for Junior Data Engineer & Analytics Engineer roles.
 
-- ✅ **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** _(Source: Eng. Baraa 30-Hour Course)_
-- ✅ **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** _(Data Structures, Web Scraping, APIs & ETL)_
-- ✅ **[Module 3: Containerization with Docker](./03-containerization-with-docker)** _(Docker & Docker Compose)_
-- ✅ **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** _(GCP, GCS, BigQuery, IAM & BigLake)_
-- ✅ **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** _(dbt Core, Data Modeling, Testing & Documentation)_
-- 🔄 **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** _(Apache Airflow & Pipeline Automation)_
-- 🎯 **Capstone Project 1:** _End-to-End Batch Pipeline (API/DB ➔ GCS ➔ BigQuery ➔ dbt ➔ Airflow / Docker)_
+- **[Module 1: Relational Databases & Advanced SQL](./01-sql-and-relational-databases)** _(Source: Eng. Baraa 30-Hour Course)_
+- **[Module 2: Python Refresher & Initial Projects](./02-python-refresher)** _(Data Structures, Web Scraping, APIs & ETL)_
+- **[Module 3: Containerization with Docker](./03-containerization-with-docker)** _(Docker & Docker Compose)_
+- **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** _(GCP, GCS, BigQuery, IAM & BigLake)_
+- **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** _(dbt Core, Data Modeling, Testing & Documentation)_
+- **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** _(Apache Airflow & Pipeline Automation)_
+- **Capstone Project 1:** _End-to-End Batch Pipeline (API/DB ➔ GCS ➔ BigQuery ➔ dbt ➔ Airflow / Docker)_
 
 ---
 
@@ -24,8 +24,8 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 > **Goal:** Scale data transformations to large-scale datasets and master open-format Lakehouse architectures.
 
-- ⏳ **[Module 7: Unified Data Processing & Lakehouse](./07-batch-processing-spark)** _(Apache Spark, PySpark, Databricks & Delta Lake)_
-- 🎯 **Capstone Project 2:** _Large-Scale Lakehouse Pipeline (PySpark / Databricks + Delta Lake Medallion Architecture)_
+- **[Module 7: Unified Data Processing & Lakehouse](./07-batch-processing-spark)** _(Apache Spark, PySpark, Databricks & Delta Lake)_
+- **Capstone Project 2:** _Large-Scale Lakehouse Pipeline (PySpark / Databricks + Delta Lake Medallion Architecture)_
 
 ---
 
@@ -33,9 +33,9 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 
 > **Goal:** Build low-latency event-driven architectures with full infrastructure automation and CI/CD pipelines.
 
-- ⏳ **[Module 8: Stream Processing & Real-Time Ingestion](./08-stream-processing-kafka)** _(Apache Kafka & Event Streaming)_
-- ⏳ **[Module 9: Production-Grade DataOps, IaC & Observability](./09-production-and-dataops)** _(Terraform, CI/CD, Data Quality, Monitoring & Secrets)_
-- 🏆 **[Module 10: End-to-End Master Capstone Project](./10-end-to-end-capstone-project)** _(Hybrid Batch + Streaming Production Architecture with Full DataOps)_
+- **[Module 8: Stream Processing & Real-Time Ingestion](./08-stream-processing-kafka)** _(Apache Kafka & Event Streaming)_
+- **[Module 9: Production-Grade DataOps, IaC & Observability](./09-production-and-dataops)** _(Terraform, CI/CD, Data Quality, Monitoring & Secrets)_
+- **[Module 10: End-to-End Master Capstone Project](./10-end-to-end-capstone-project)** _(Hybrid Batch + Streaming Production Architecture with Full DataOps)_
 
 ---
 
@@ -118,7 +118,7 @@ Building cloud-based data warehouses, managing storage buckets, and understandin
 
 ### Certificate
 
-- 📜 **[Module 4 Certificate](./04-GCP%20%26%20BigQuery%20%28GCS%2C%20BigQuery%20%26%20Cloud%20Data%20Warehousing%29/module-4-cloud-data-warehousing-certificate.pdf)** — Cloud Data Warehousing
+- **[Module 4 Certificate](./04-GCP%20%26%20BigQuery%20%28GCS%2C%20BigQuery%20%26%20Cloud%20Data%20Warehousing%29/module-4-cloud-data-warehousing-certificate.pdf)** — Cloud Data Warehousing
 
 ---
 
@@ -129,8 +129,8 @@ Transforming raw warehouse data into analytics-ready models, implementing data t
 ### Learning Resources & Fundamentals:
 
 - **Interactive DataCamp Skill Track:**
-  - 📄 **[dbt Fundamentals](https://app.datacamp.com/learn/skill-tracks/dbt-fundamentals)**
+  - **[dbt Fundamentals](https://app.datacamp.com/learn/skill-tracks/dbt-fundamentals)**
 
 ### Certificate
 
-- 📜 **[dbt Fundamentals Certificate](./05-analytics-engineering-dbt/dbt-fundamentals-certificate.pdf)** — Analytics Engineering with dbt
+- **[dbt Fundamentals Certificate](./05-analytics-engineering-dbt/dbt-fundamentals-certificate.pdf)** — Analytics Engineering with dbt
