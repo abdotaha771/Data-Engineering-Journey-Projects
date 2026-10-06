@@ -16,7 +16,7 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 - **[Module 4: Cloud Data Warehousing](./04-cloud-data-warehousing-gcp)** _(GCP, GCS, BigQuery, IAM & BigLake)_
 - **[Module 5: Analytics Engineering with dbt](./05-analytics-engineering-dbt)** _(dbt Core, Data Modeling, Testing & Documentation)_
 - **[Module 6: Workflow Orchestration](./06-workflow-orchestration)** _(Apache Airflow & Pipeline Automation)_
-- **Capstone Project 1:** _End-to-End Batch Pipeline (API/DB ➔ GCS ➔ BigQuery ➔ dbt ➔ Airflow / Docker)_
+- **Capstone Project 1** 
 
 ---
 
@@ -25,7 +25,6 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 > **Goal:** Scale data transformations to large-scale datasets and master open-format Lakehouse architectures.
 
 - **[Module 7: Unified Data Processing & Lakehouse](./07-batch-processing-spark)** _(Apache Spark, PySpark, Databricks & Delta Lake)_
-- **Capstone Project 2:** _Large-Scale Lakehouse Pipeline (PySpark / Databricks + Delta Lake Medallion Architecture)_
 
 ---
 
