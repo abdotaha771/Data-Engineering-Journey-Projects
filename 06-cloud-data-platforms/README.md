@@ -23,7 +23,6 @@ The goal is to understand shared architecture and important service differences.
   - **[Build Data Lakes and Data Warehouses on Google Cloud](https://app.datacamp.com/learn/courses/build-data-lakes-and-data-warehouses-on-google-cloud)**
 - **AWS Comparison Resource:**
   - **[AWS Tutorial For Beginners (2026 Guide) | AWS Data Engineer](https://youtu.be/Ae3xyW2Ef0c)**
-- **Azure Scope:** Azure storage, analytics, identity, and orchestration resources will be added during the provider comparison phase.
 
 ## Study Scope
 
