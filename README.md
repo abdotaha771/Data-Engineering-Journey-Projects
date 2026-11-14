@@ -20,6 +20,7 @@ Welcome to my central repository documenting my step-by-step journey in **Data E
 - ✓ **[Module 8: Workflow Orchestration](./08-workflow-orchestration)** _(Apache Airflow & Pipeline Automation)_
 - ✓ **[Module 9: AI for Data Engineering](./09-Ai-for-data-engineering)** _(LLMs, AI Agents, RAG, Vector Databases & AI-Assisted Development)_
 - ○ **Capstone Project 1:** _End-to-End Batch Data Engineering Project_
+- ○ **Capstone Project 2:** _Data-Agent-Project_
 
 ---
 
